@@ -1,0 +1,32 @@
+{
+  "name": "headerparser-microservice",
+  "version": "1.0.0",
+  "description": "A simple request header parser microservice.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmedhosam-dev/headerparser-microservice.git"
+  },
+  "keywords": [
+    "Express",
+    "Backend",
+    "Microservice",
+    "api",
+    "headerparser"
+  ],
+  "author": "Ahmed Hossam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmedhosam-dev/headerparser-microservice/issues"
+  },
+  "homepage": "https://github.com/ahmedhosam-dev/headerparser-microservice#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
